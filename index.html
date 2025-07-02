@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" 
+    /> 
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Desarrollo web</title>
+  </head>
+
+  <body>
+    <!-- Pestaña social flotante -->
+    <!--Header-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="navL">
+          <img src="img/favicon.png" alt="favicon" class="navL-img" />
+          <!--Titulo de pagina-->
+          Carlos Lemos
+        </a>
+        <nav>
+
+</nav>
+        <div class="navToggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--HOME-->
+<!--TABLA EDUCATIVA INTERACTIVA-->
+<section class="section section-exam" id="glosario">
+  <div class="container">
+    <h2 class="sectiontitle">Diccionario de Desarrollo Web</h2>
+    <div class="image-container" style="margin: 2rem auto; text-align: center; width: fit-content;">
+      <img src="img/img%201.jpg" alt="Imagen" style="width: 450px; height: 250px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); display: block; margin: 0 auto;">
+    </div>
+
+    <div style="text-align: right; margin-bottom: 1rem;">
+      <div class="search-container" style="display: flex; align-items: center; gap: 0.5rem;">
+        <i class="fas fa-search" style="color: #000000; font-size: 1.2rem;"></i>
+        <input
+  type="text"
+  id="buscador"
+  placeholder="Buscar término..."
+  style="padding: 0.5rem; border-radius: 0.3rem; border: none; width: 50%; display: block; margin: 0 auto;"
+>
+
+     <!-- <button onclick="exportarPDF()" class="button" style="margin-left: 10px;">Descargar PDF</button>-->
+    </div>
+
+    <div id="tablaPDF" class="table-container">
+      <table id="tablaT">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Término</th>
+            <th>Definición</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tbody>
+          <tr><td>1</td><td>HTML</td><td>Lenguaje de marcado estándar que estructura y presenta contenido en la web, usando etiquetas para definir elementos como párrafos, encabezados y listas.</td></tr>
+          <tr><td>2</td><td>CSS</td><td>Lenguaje de hojas de estilo que controla la presentación visual de documentos HTML, permitiendo personalizar colores, tipografías, espaciados y animaciones.</td></tr>
+          <tr><td>3</td><td>JavaScript</td><td>Lenguaje de programación que añade interactividad y funcionalidad dinámica a las páginas web, permitiendo crear eventos, manipular el DOM y realizar operaciones asíncronas.</td></tr>
+          <tr><td>4</td><td>PHP</td><td>Lenguaje de programación del lado del servidor que genera contenido dinámico en tiempo real, procesa formularios y maneja datos de bases de datos.</td></tr>
+          <tr><td>5</td><td>MySQL</td><td>Sistema de gestión de bases de datos relacional que almacena y organiza datos en tablas relacionadas, permitiendo consultas complejas y transacciones seguras.</td></tr>
+          <tr><td>6</td><td>XML</td><td>Lenguaje de marcado extensible que define reglas para codificar documentos en un formato que es tanto legible para humanos como para máquinas.</td></tr>
+          <tr><td>7</td><td>DOM</td><td>Modelo de objetos que representa la estructura de un documento HTML o XML, permitiendo manipular elementos y contenido dinámicamente.</td></tr>
+          <tr><td>8</td><td>JSON</td><td>Formato ligero y portable para intercambio de datos estructurados, basado en texto y fácilmente legible tanto para humanos como para máquinas.</td></tr>
+          <tr><td>9</td><td>API</td><td>Conjunto de reglas y protocolos que permiten que diferentes aplicaciones o servicios se comuniquen y compartan datos entre sí.</td></tr>
+          <tr><td>10</td><td>AJAX</td><td>Tecnología que permite actualizar partes específicas de una página web sin necesidad de recargar toda la página, mejorando la experiencia del usuario.</td></tr>
+          <tr><td>11</td><td>GET</td><td>Método HTTP que solicita datos al servidor, ideal para búsquedas y consultas que no modifican el estado del servidor.</td></tr>
+          <tr><td>12</td><td>POST</td><td>Método HTTP que envía datos al servidor para ser procesados, ideal para transacciones que requieren seguridad como envío de formularios.</td></tr>
+          <tr><td>13</td><td>isset()</td><td>Función PHP que verifica si una variable existe y no es null, útil para manejar datos de formularios y sesiones.</td></tr>
+          <tr><td>14</td><td>echo</td><td>Función PHP que imprime texto o variables directamente en la salida del navegador, comúnmente usada para mostrar contenido dinámico.</td></tr>
+          <tr><td>15</td><td>let</td><td>Palabra clave en JavaScript que declara variables con alcance de bloque, permitiendo mejor control sobre el ámbito de las variables.</td></tr>
+          <tr><td>16</td><td>const</td><td>Palabra clave en JavaScript que declara constantes, valores que no pueden ser modificados después de su declaración.</td></tr>
+          <tr><td>17</td><td>var</td><td>Declaración de variable en JavaScript que tiene alcance global o de función, aunque está siendo reemplazada por let y const.</td></tr>
+          <tr><td>18</td><td>SESSION</td><td>Mecanismo que mantiene datos del usuario durante su interacción con un sitio web, permitiendo una experiencia personalizada y segura.</td></tr>
+          <tr><td>19</td><td>COOKIE</td><td>Pequeño archivo de texto que almacena información del usuario en el navegador, permitiendo recordar preferencias y estados entre visitas.</td></tr>
+          <tr><td>20</td><td>function</td><td>Bloque de código reutilizable que realiza una tarea específica, que puede ser llamado múltiples veces con diferentes parámetros.</td></tr>
+          <tr><td>21</td><td>array</td><td>Lista ordenada de elementos que pueden ser de diferentes tipos, permitiendo almacenar y acceder a múltiples valores de manera eficiente.</td></tr>
+          <tr><td>22</td><td>while</td><td>Bucle que se ejecuta mientras una condición sea verdadera, ideal para operaciones que requieren ejecución indefinida hasta que una condición se cumpla.</td></tr>
+          <tr><td>23</td><td>for</td><td>Bucle que itera sobre una secuencia de números o elementos, ideal para operaciones repetitivas con un número fijo de iteraciones.</td></tr>
+          <tr><td>24</td><td>if/else</td><td>Estructura de control que ejecuta código basado en condiciones booleanas, permitiendo tomar decisiones en el flujo del programa.</td></tr>
+          <tr><td>25</td><td>select</td><td>Elemento HTML que muestra una lista desplegable de opciones, permitiendo al usuario seleccionar un valor de una lista predefinida.</td></tr>
+          <tr><td>26</td><td>input</td><td>Elemento HTML que permite al usuario ingresar datos de diferentes tipos como texto, números, fechas o archivos.</td></tr>
+          <tr><td>27</td><td>button</td><td>Elemento interactivo que puede disparar eventos o enviar formularios, comúnmente usado para acciones como enviar, guardar o cancelar.</td></tr>
+          <tr><td>28</td><td>form</td><td>Elemento HTML que recopila datos del usuario a través de campos de entrada, selectores y botones, permitiendo el envío de información al servidor.</td></tr>
+          <tr><td>29</td><td>span</td><td>Contenedor en línea que no afecta el flujo del documento, ideal para aplicar estilos o manipular texto específico dentro de un párrafo.</td></tr>
+          <tr><td>30</td><td>div</td><td>Contenedor en bloque que agrupa elementos relacionados, permitiendo aplicar estilos y estructurar el contenido de manera lógica.</td></tr>
+          <tr><td>31</td><td>class</td><td>Atributo HTML que asigna una clase a un elemento, permitiendo aplicar estilos CSS y selectores de JavaScript a múltiples elementos.</td></tr>
+          <tr><td>32</td><td>id</td><td>Atributo HTML que identifica de manera única un elemento en el documento, permitiendo seleccionarlo específicamente para estilos o manipulación.</td></tr>
+          <tr><td>33</td><td>href</td><td>Atributo que especifica la URL de destino de un enlace, permitiendo navegar entre diferentes páginas o recursos web.</td></tr>
+          <tr><td>34</td><td>src</td><td>Atributo que indica la ubicación de un recurso externo como una imagen, video o script que debe ser cargado en la página.</td></tr>
+          <tr><td>35</td><td>alt</td><td>Atributo que proporciona texto alternativo para imágenes, mejorando la accesibilidad y SEO al describir el contenido visual.</td></tr>
+          <tr><td>36</td><td>meta</td><td>Elemento que define metadatos sobre el documento como el conjunto de caracteres, descripción y palabras clave.</td></tr>
+          <tr><td>37</td><td>SEO</td><td>Conjunto de técnicas y estrategias para mejorar la visibilidad de un sitio web en los resultados de búsqueda de motores como Google.</td></tr>
+          <tr><td>38</td><td>IP</td><td>Número único que identifica una computadora o dispositivo en una red, permitiendo el enrutamiento de datos en Internet.</td></tr>
+          <tr><td>39</td><td>Dominio</td><td>Nombre legible que hace referencia a una dirección IP, permitiendo a los usuarios acceder a sitios web usando nombres memorables.</td></tr>
+          <tr><td>40</td><td>DNS</td><td>Sistema que traduce nombres de dominio legibles por humanos en direcciones IP numéricas para que las computadoras puedan comunicarse.</td></tr>
+          <tr><td>41</td><td>Servidor</td><td>Computadora que almacena y sirve recursos web, procesa solicitudes de clientes y entrega contenido solicitado.</td></tr>
+          <tr><td>42</td><td>Host</td><td>Proveedor de servicios que almacena y mantiene sitios web en servidores, permitiendo que estén accesibles en Internet.</td></tr>
+          <tr><td>43</td><td>HTTPS</td><td>Protocolo seguro que combina HTTP con SSL/TLS para proporcionar una conexión cifrada y autenticada entre cliente y servidor.</td></tr>
+          <tr><td>44</td><td>SSL</td><td>Protocolo de seguridad que cifra la comunicación entre cliente y servidor, protegiendo datos sensibles durante el tráfico web.</td></tr>
+          <tr><td>45</td><td>Backend</td><td>Parte invisible del sitio web que maneja la lógica de negocio, procesamiento de datos y funcionalidad del servidor.</td></tr>
+          <tr><td>46</td><td>Frontend</td><td>Parte visible y accesible del sitio web que interactúa directamente con los usuarios, incluyendo la interfaz de usuario y la experiencia visual.</td></tr>
+          <tr><td>47</td><td>Framework</td><td>Conjunto de herramientas y bibliotecas que proporcionan una estructura predefinida para desarrollar aplicaciones web de manera más eficiente.</td></tr>
+          <tr><td>48</td><td>CMS</td><td>Sistema que permite gestionar y publicar contenido web sin necesidad de conocimientos técnicos avanzados, facilitando la creación y actualización de sitios web.</td></tr>
+          <tr><td>49</td><td>URL</td><td>Identificador único que especifica la ubicación exacta de un recurso en Internet, incluyendo el protocolo, dominio y ruta.</td></tr>
+        </tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+    <!--FOOTER-->
+    <script src="js/search.js"></script>
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollupicon"></i>
+    </a>
+
+    <!--JAVASCRIPT-->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <script src="js/swiper-bundle.min.js"></script> <!--JAVASCRIPT-->
+
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+ 
+
+
+<script>
+  // Filtrar tabla
+  document.getElementById("buscador").addEventListener("keyup", function () {
+    const valor = this.value.toLowerCase();
+    const filas = document.querySelectorAll("#tablaT tbody tr");
+    filas.forEach(fila => {
+      const texto = fila.innerText.toLowerCase();
+      fila.style.display = texto.includes(valor) ? "" : "none";
+    });
+  });
+
+ 
+</script>
+<script>
+  document.getElementById('buscador').addEventListener('input', function () {
+    const filtro = this.value.toLowerCase();
+    const filas = document.querySelectorAll('.tabla-estilo tbody tr');
+
+    filas.forEach(fila => {
+      const textoFila = fila.textContent.toLowerCase();
+      fila.style.display = textoFila.includes(filtro) ? '' : 'none';
+    });
+  });
+</script>
+
+  </body>
+  <!-- Pestaña flotante independiente -->
+
+<footer class="footer-custom text-white py-4">
+<div class="text-center">
+ <hr>
+
+
+</footer>
+</html>
